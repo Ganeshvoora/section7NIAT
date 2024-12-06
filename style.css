@@ -25,5 +25,17 @@ button{
 
 
 nav{
-    height: 12vh;
+    height: 11vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+}
+.bgvideo{
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
 }
