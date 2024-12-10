@@ -4,93 +4,676 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="A brief description of S7 section at NIAT">
+<meta name="keywords" content="HTML, CSS">
+<meta name="author" content="S7 v.v.s.Ganesh">
+    <title>S7</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
-    <video class="bgvideo" src="https://res.cloudinary.com/dpfaeqwqq/video/upload/v1733495570/3209298-uhd_2560_1440_25fps_bjaes7.mp4" autoplay muted loop></video>
-    <nav class="navbar bg-body-light navbar-expand-lg fixed-top z-1 ">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">Title</a>
-            <button class="navbar-toggler border-none" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <img class="logoimage"
-                    src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg"
-                    alt="NIAT logo">
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel" style="height: 50vh; width: 100vw;">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body" >
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 font" >
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+    <section class="body" id="sectionhome">
 
+        <video class="bgvideo"
+            src="https://res.cloudinary.com/dpfaeqwqq/video/upload/v1733495570/3209298-uhd_2560_1440_25fps_bjaes7.mp4"
+            autoplay muted loop></video>
+        <!-- <div class="bg d-flex flex-column justify-content-around">
+
+        <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg" class="logoenter w-50 h-50" alt="" />
+    </div> -->
+        <nav class="navbar bg-body-light navbar-expand-lg fixed-top z-1 ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">
+                    <img src="https://res.cloudinary.com/ddajnqkjo/image/upload/v1733820761/s9dennf3e3u3xqnzdrjp.png"
+                        width="100" alt="">
+                </a>
+                <button class="navbar-toggler border-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <img class="logoimage"
+                        src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg"
+                        alt="S7">
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel" style="height: 50vh; width: 100vw;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 font">
+                            <li class="nav-item m-2">
+                                <a class="nav-link active" aria-current="page" href="#" style="color: gainsboro;
+">Home</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="#aboutus" style="color: gainsboro;
+">About Us</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="#website" style="color: gainsboro;
+">Website</a>
+                            </li>
+                            <li class="nav-item m-2">
+                                <a class="nav-link" href="#" style="color: gainsboro;
+">Gallery</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
                 </div>
             </div>
+        </nav>
+        <article class="hero_section">
+
+            <section class="text-center">
+                <h1></h1>
+                <h1>The S7 journey</h1>
+            </section>
+        </article>
+        <div class=" logo text-center d-none d-lg-block">
+            <a class="bg-none" href="#"><img class="logoimage "
+                    src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg"
+                    alt="S7"></a>
         </div>
-    </nav>
-    <article class="hero_section">
-        <section class="text-center">
-            <h1>Hello friends</h1>
-            <h1>let us start our S7 journey</h1>
-        </section>
-    </article>
-    <div class=" logo text-center d-none d-lg-block">
-        <a class="bg-none" href="#"><img class="logoimage "
-                src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg"
-                alt="NIAT logo"></a>
-    </div>
-    <article class="aboutus d-flex justify-content-around bg-light">
-        <section class="w-30 p-5">
-            <h2>About Us</h2>
-            <p>100 days of college friendship is like finding pieces of your soul in strangers you didn’t know you were waiting for.
+        <article class="aboutus d-flex justify-content-around" id="aboutus">
+            <section class="w-30 p-5">
+                <h2 style="font-size: 40px;  font-family: Merriweather, serif;
+            font-weight: 900;
+            font-style: italic;">About Us</h2>
+                <p style="font-size: 20px; font-family: Montserrat sans-serif; color:#fbf187;">100 days of college
+                    friendship is like finding pieces of your soul in strangers you didn’t know you were
+                    waiting for.
 
-                It starts with shy smiles and tentative hellos, evolving into shared laughter that feels like sunlight on a cloudy day. You discover a rhythm 
-                together—grabbing late-night snacks, exploring hidden corners of campus, and venting about life’s chaos in whispers that carry your deepest fears.</p>
-            <button class="btn-hover-student color-2">VIEW MORE</button>
-        </section>
-        <section class="w-40 m-3">
-        <img src="https://cdn.pixabay.com/photo/2021/12/03/04/18/campus-6841791_1280.jpg" class="w-100" alt=""></section>
-    </article>
-    <article class="websitebyus">
-        <h2>Let us see some website desined by us</h2>
-        <section class="text-center"><button class="btn-hover-student color-2">VIEW MORE</button></section>
-    </article>
-    <article class="websitebyus">
-        <h2>Some movement of our section</h2>
-        <section class="text-center"><button class="btn-hover-student color-2">VIEW MORE</button></section>
-    </article>
+                    It starts with shy smiles and tentative hellos, evolving into shared laughter that feels like
+                    sunlight
+                    on a cloudy day. You discover a rhythm
+                    together—grabbing late-night snacks, exploring hidden corners of campus, and venting about life’s
+                    chaos
+                    in whispers that carry your deepest fears.</p>
 
+            </section>
+            <section class="w-40 m-3">
+                <img src="https://cdn.pixabay.com/photo/2021/12/03/04/18/campus-6841791_1280.jpg" class="w-100" alt="">
+            </section>
+        </article>
+        <article class="websitebyus" id="website">
+            <h2 style="font-family: Merriweather, serif;
+        font-weight: 900;
+        font-style: italic;">Explore some website desined by us</h2>
+            <div class="container">
+                <div class="row">
+                    <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                        <a class="w-100 h-100" href="https://tripsgo.niat.tech/" target="_blank">
+                            <section class="w-100 h-100">
+                                <section class="website-image">
+                                    <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733589505/2469d30e-3fc0-4d3a-a5b3-c40cb53abb9d.png"
+                                        class="w-100 h-100" alt=" website image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Trips.Go</h3>
+                                </section>
+                            </section>
+                        </a>
+                    </section>
+                    <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                        <a class="w-100 h-100" href="https://floodwise.niat.tech" target="_blank">
+                            <section class="w-100 h-100">
+                                <section class="website-image">
+                                    <img src="https://res.cloudinary.com/dxj5gdhds/image/upload/v1733593473/flood_wise_bfwwxr.jpg"
+                                        class="w-100 h-100" alt=" website image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Floodwise</h3>
+                                </section>
+                            </section>
+                             
+                        </a>
+                    </section>
+                    <section class="website_card shadow col-10 col-md-6 col-lg-3 ">
+                        <a class="w-100 h-100" href="https://rtpwebsite.niat.tech" target="_blank">
+                            <section class="w-100 h-100">
+                                <section class="website-image">
+                                    <img src="https://res.cloudinary.com/dmsc4q0d2/image/upload/v1733734370/Screenshot_2024-12-09_142051_r4zggi.png"
+                                        class="w-100 h-100" alt=" website image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Easy Stay</h3>
+                                </section>
+                            </section>
+                        </a>
+                              
+                    </section>
+                </div>
+            </div>
+            <section class="text-center"><button class="btn-hover-student color-2" onclick="display('sectionwebsite')">VIEW MORE</button></section>
+        </article>
 
+        <article class="contactus">
+            <!-- <h2>Contact Us</h2> -->
+            <section class="d-flex">
+                <img class=""
+                    src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733494892/Black_White_Elegant_Monogram_Initial_Name_Logo_1_bxqaay.jpg"
+                    alt="S7" width="20%">
+                <section class="scroll">
+                    <section class="d-flex">
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1730640029/WhatsApp_Image_2024-11-03_at_18.50.44_8a0f204d_bnpz5f.jpg"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Voora Venkata Sai Ganesh</h3>
+                                    <p>N24H01A0067</p>
+                                </section>
+                            </section>
+                                  
+                        </section>
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dw4g35y1b/image/upload/v1733741158/image_2024-12-09_161556855_msral4.png"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>N.Sharan(C.R)</h3>
+                                    <p>N24H01A0324</p>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733762767/WhatsApp_Image_2024-12-09_at_15.44.47_a7eaf610_yhvnuq.jpg"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Rachamadugu venkata Sai manideep</h3>
+                                    <p>N24H01A0605</p>
+                                </section>
+                            </section>
+                              
+                        </section>
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dtxqeadyh/image/upload/v1733590003/WhatsApp_Image_2024-12-07_at_21.08.22_e3e2fdd6_vmffj7.jpg"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Amaresh</h3>
+                                    <p>N24H01A0291</p>
+                                </section>
+                            </section>
+                        </section>
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733585096/WhatsApp_Image_2024-12-07_at_20.52.48_6fdee2dc_kvyxcl.jpg"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Kanamarlapudi Avanthi</h3>
+                                    <p>N24H01A0490</p>
+                                </section>
+                            </section>
+                                  
+                        </section>
+                        <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                            <section class="shadow student_card_home">
+                                <section class="student-image">
+                                    <img src="https://res.cloudinary.com/dgtfgihga/image/upload/v1689268087/photo_m18fa8.jpg"
+                                        class="w-100 h-100" alt="student image">
+                                </section>
+                                <section class="text-center">
+                                    <h3>Saketh Sampath Vinay</h3>
+                                    <p>N24H01A0120</p>
+                                </section>
+                            </section>
+                              
+                        </section>
 
+                        <section class="text-center m-auto"><button class="btn-hover-student color-2" onclick="display('sectionstudent')">VIEW MORE</button>
+                        </section>
+                    </section>
+                    
+                    
+                </section>
+            </section>
 
-
-
-
-
-
-
+        </article>
+        
+    </section>
     
     
+    
+    
+    
+    
+    
+    
+    <article class="text-center" id="sectionwebsite">
+        
+        <div class="container">
+            <div class="row">
+                <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://tripsgo.niat.tech/" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733589505/2469d30e-3fc0-4d3a-a5b3-c40cb53abb9d.png"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Trips.Go</h3>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://manideep3.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733828440/ac00427d-be3b-43ab-a05f-0663a425f81f.png"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Tasty go</h3>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="website_card shadow col-10 col-md-6 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://teammoviematrix.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733837414/7aeaabaf-7363-485e-83ce-b09485329258.png" class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Movie Matrix</h3>
+                            </section>
+                        </section>
+                    </a>
+                          
+                </section>
+                <section class="website_card shadow col-10 col-md-6 col-lg-3 ">
+                    <a class="w-100 h-100" href="rtpwebsite.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dmsc4q0d2/image/upload/v1733734370/Screenshot_2024-12-09_142051_r4zggi.png"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Easy Stay</h3>
+                            </section>
+                        </section>
+                    </a>
+                          
+                </section>
+                <section class="website_card shadow col-10 col-md-6 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://marvelinnn.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dw4g35y1b/image/upload/v1733740648/Screenshot_2024-12-09_091245_iqvgn2.png"
+                                class="w-100 h-100" alt="">
+                            </section>
+                            <section class="text-center">
+                                <h3>MARVEL.IN</h3>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                
+                
+                <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://ysm2.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733590314/f1841089-70a8-4b43-811d-1bff99da6f88.png"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Dreamscape events</h3>
+                            </section>
+                        </section>
+                    </a>
+                          
+                </section>
+                <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://rpva0.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733591311/d6227034-f7b0-48eb-a697-e38529595d2f.png"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Dream Wedding</h3>
+                            </section>
+                        </section>
+                    </a>
+                </section>
+                <section class="website_card shadow col-10 col-md-5 col-lg-3 ">
+                    <a class="w-100 h-100" href="https://floodwise.niat.tech" target="_blank">
+                        <section class="w-100 h-100">
+                            <section class="website-image">
+                                <img src="https://res.cloudinary.com/dxj5gdhds/image/upload/v1733593473/flood_wise_bfwwxr.jpg"
+                                class="w-100 h-100" alt=" website image">
+                            </section>
+                            <section class="text-center">
+                                <h3>Floodwise</h3>
+                            </section>
+                        </section>
+                         
+                    </a>
+                </section>
+
+            </div>
+        </div>
+        <section class="text-center m-auto"><button class="btn-hover-student color-2" onclick="display('sectionhome')">Back</button>
+        </article>
+        
+        
+        
+        
+        
+        
+        <article  id="sectionstudent">
+            <h1>Student in S7</h1>
+            <div class="container ">
+                <div class="row ">
+                    <!-- <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                        <section class="shadow student_card">
+                            <section class="student-image">
+                                <img src="[url of your image]" class="w-100 h-100" alt="student image">
+                            </section>
+                            <section class="text-center">
+                                <h3>[your name]</h3>
+                                <p>[your id]</p>
+                            </section>
+                        </section>
+                </section> -->
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1730640029/WhatsApp_Image_2024-11-03_at_18.50.44_8a0f204d_bnpz5f.jpg"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Voora Venkata Sai Ganesh</h3>
+                            <p>N24H01A0067</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dw4g35y1b/image/upload/v1733741158/image_2024-12-09_161556855_msral4.png"
+                                class="w-100 h-100" alt="student image">
+                            </section>
+                            <section class="text-center">
+                                <h3>N.Sharan</h3>
+                                <p>N24H01A0324</p>
+                            </section>
+                        </section>
+                    </section>
+                    
+                    <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                        <section class="shadow student_card">
+                            <section class="student-image">
+                                <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733585096/WhatsApp_Image_2024-12-07_at_20.52.48_6fdee2dc_kvyxcl.jpg"
+                                class="w-100 h-100" alt="student image">
+                            </section>
+                        <section class="text-center">
+                            <h3>Kanamarlapudi Avanthi</h3>
+                            <p>N24H01A0490</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733652418/6510178a-d26d-4c41-add5-c7eaf0378258.png"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Snigdha reddy </h3>
+                            <p>N24H01A0257</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733588263/LvAveoV_d_dadb0s.webp"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Aditya Sanku </h3>
+                            <p>N24H01A0408</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://media-hosting.imagekit.io//2acadec40ec94e0c/new%20image.jpg?Expires=1733760649&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=u6v9MeuGU-xzFIMou5Jv44UmdnVCgHOW9rE1yoAYUeI4H1sVV0tZbR1xhYDN00ddVGuPPeRB2QxqZaBvIpfaGmnrCteq6U4z4ayMlyUKUu4yRBbVYFvWJYb7DCc-BqnkyhnWGQriLjgheWCi4eiJORSrkNJztYba5EH9aFYbbLi-gj1eE6MHVcXawdaORkaiZgirF2GjeUkZqRglFMfOPMdfPNzsY7tR-ri3k1YJh0P19PGehTEtwl7SEfQAzDRHrITRXlluL7i9zlU~wRiz8GmmPlKkfUS49A1ncPzba7ODZKmP4En84n5b4NpjjMjaC~UqHTxKVJq7HOZMeNQ1uw__"
+                            class="w-100 h-100" alt="student image" </section>
+                            <section class="text-center">
+                                <h3>B. Raj Kumar</h3>
+                                <p>N24H01A0491</p>
+                            </section>
+                        </section>
+                        
+                    </section>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/c_crop,ar_1:1/v1733588599/MEXXYVO_o_meoswk.png "
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>MOTURI MIHITHA VIHARINI</h3>
+                            <p>N24H01A0129</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpnysn1fm/image/upload/v1733588275/vaishu_pic_rmil4p.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Kothakapu Vaishali Reddy</h3>
+                            <p>N24H01A0341</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dr2njso0i/image/upload/v1733588270/photo3_szqawv.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Chanda Rohith</h3>
+                            <p>N24H01A0397</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card_home">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dpfaeqwqq/image/upload/v1733762767/WhatsApp_Image_2024-12-09_at_15.44.47_a7eaf610_yhvnuq.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Rachamadugu venkata Sai manideep</h3>
+                            <p>N24H01A0605</p>
+                        </section>
+                    </section>
+                      
+                </section>
+                
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dtxqeadyh/image/upload/v1733590003/WhatsApp_Image_2024-12-07_at_21.08.22_e3e2fdd6_vmffj7.jpg"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Amaresh</h3>
+                            <p>N24H01A0291</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dgtfgihga/image/upload/v1689268087/photo_m18fa8.jpg"
+                                class="w-100 h-100" alt="student image">
+                            </section>
+                        <section class="text-center">
+                            <h3>Saketh Sampath Vinay</h3>
+                            <p>N24H01A0120</p>
+                        </section>
+                    </section>
+                      
+                </section>
+                
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dwrzbxidt/image/upload/v1733590696/WhatsApp_Image_2024-12-07_at_10.24.27_PM_ekh8tq.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Pooja</h3>
+                            <p>N24H01A0024</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/ddajnqkjo/image/upload/v1733591290/my_photo_srqii5.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>K NIKHIl</h3>
+                            <p>N24H01A0528</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://i.im.ge/2024/12/07/z5sUBy.Screenshot-2024-12-07-225013.png"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Abhinav Neeraj</h3>
+                            <p>N24H01A0041</p>
+                        </section>
+                    </section>
+                     
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dxj5gdhds/image/upload/v1733593792/WhatsApp_Image_2024-12-07_at_23.19.10_b21f17e2_po06ls.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>B.Rishitha</h3>
+                            <p>N24H01A0200</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dxj5gdhds/image/upload/v1733594203/pavani_bgk7pe.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>K.Pavani</h3>
+                            <p>N24H01A0214</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dwgy2kfpx/image/upload/v1733597297/election_image_i0bdoq.jpg"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Chidvilas guguloth</h3>
+                            <p>N24H01A0490</p>
+                        </section>
+                    </section>
+                          
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dugzgb5yr/image/upload/v1729061560/1716746356130_zt9xln.jpg"
+                                class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Chatrapathyee</h3>
+                            <p>N24H10A0131</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4 col-xl-3 ">
+                    <section class="shadow student_card">
+                        <section class="student-image">
+                            <img src="https://res.cloudinary.com/dmsc4q0d2/image/upload/v1733734569/WhatsApp_Image_2024-12-09_at_14.25.07_0ac65289_m4h1xz.jpg"
+                            class="w-100 h-100" alt="student image">
+                        </section>
+                        <section class="text-center">
+                            <h3>Pranav</h3>
+                            <p>N24H01A0376</p>
+                        </section>
+                    </section>
+                          
+                </section>
+
+            </div>
+        </div>
+
+        <section class="text-center m-auto"><button class="btn-hover-student color-2" onclick="display('sectionhome')">Back</button>
+    </article>
+    
+    
+    
+    
+    
+    
+    
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
